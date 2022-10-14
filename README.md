@@ -41,9 +41,9 @@ $ git config -- global user.mail"nama_user"
 ```
 $ mkdir latihan1
 ```
+```
 $ cd Latihan1
 ```
-
 #### - Sehingga terbentuk suatu directory baru dibawahnya, selanjutnya masuk kedalam directory tersebut dengan perintah cd (change directory).
 #### - Directory aktif menjadi: C:\User\Desktop\dlabs_pemograman1\Latihan1
 
