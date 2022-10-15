@@ -57,4 +57,29 @@ $ git init
 #### - Repository baru berhasil di inisialisasi, dengan terbentuknya satu directory hidden dengan nama .git
 #### - Pada directory tersebut, semua perubahan pada working directory akan disimpan.
 
+## Menambahkan File Baru pada Repository
+
+#### - Untuk menambahkan file dapat menggunakan _text editor_, lalu menyimpan filenya pada directory aktif (repository).
+#### - Disini kita akan coba buat satu file bernama README.md (text file).
+```
+$ echo "#latihan1" >> README.md
+```
+#### - File README.md berhasil dibuat.
+![Gambar1](gambar2/gambar2.png)
+#### - Untuk menambahkan file yang baru saja dibuat tersebut gunakan perintah git add.
+```
+$ git add README.md
+```
+#### - File README.md berhasil ditambahkan.
+![Gambar1](gambar2/gambar3.png)
+
+## Commit (Menyimpan Perubahan ke Database)
+
+#### - Untuk menyimpan perubahan yang ada kedalam databse repository lokal, gunakan perintah git commit -m "komentar commit".
+#### - Perubahann berhasil disimpan.
+
+![Gambar1](gambar2/gambar4.png)
+
+## Membuat Reposity Server
+
 
