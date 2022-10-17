@@ -62,13 +62,13 @@ $ git init
 $ echo "#latihan1" >> README.md
 ```
 #### - File README.md berhasil dibuat.
-![Gambar](gambar/gambar2.png)
+![Gambar](gambar1/gambar2.png)
 #### - Untuk menambahkan file yang baru saja dibuat tersebut gunakan perintah git add.
 ```
 $ git add README.md
 ```
 #### - File README.md berhasil ditambahkan.
-![Gambar1](gambar2/gambar3.png)
+![Gambar1](gambar1/gambar3.png)
 
 ## Commit (Menyimpan Perubahan ke Database)
 
