@@ -8,7 +8,7 @@
 ```
 git --version
 ```
-![Gambar1](gambar/gambar1.png)
+![Gambar1](Gambar1/gambar1.png)
 
 #### - Pada saat pertama kali menggunakan git, perlu dilakukan, konfigurasi "user_name" dan "user.email"
 #### - Konfigurasi ini bisa dilakukan untuk global repository atau individual repository
@@ -62,20 +62,20 @@ $ git init
 $ echo "#latihan1" >> README.md
 ```
 #### - File README.md berhasil dibuat.
-![Gambar](gambar1/gambar2.png)
+![Gambar](Gambar1/gambar2.png)
 #### - Untuk menambahkan file yang baru saja dibuat tersebut gunakan perintah git add.
 ```
 $ git add README.md
 ```
 #### - File README.md berhasil ditambahkan.
-![Gambar1](gambar1/gambar3.png)
+![Gambar1](Gambar1/gambar3.png)
 
 ## Commit (Menyimpan Perubahan ke Database)
 
 #### - Untuk menyimpan perubahan yang ada kedalam databse repository lokal, gunakan perintah git commit -m "komentar commit".
 #### - Perubahann berhasil disimpan.
 
-![Gambar1](gambar2/gambar4.png)
+![Gambar1](Gambar1/gambar4.png)
 
 ## Membuat Reposity Server
 
@@ -84,11 +84,10 @@ $ git add README.md
 #### - Pada laman github, klik tombol start a project, atau 
 ####   dari menu (icon +) klik New Repository.
 
-![Gambar1](gambar/gambar5.png)
-![Gambar1](gambar/gambar6.png)
+![Gambar1](Gambar1/gambar5.png)
+![Gambar1](Gambar1/gambar6.png)
 #### - Isi nama repositorynya, misal: labpy.
 #### - Lalu klik tombol Create repository.
-![Gambar1](gambar/gambar7.png)
 
 ## Menambahkan Remote Repository
 
@@ -106,14 +105,14 @@ $ git remote add https://github.com/Akramfarrasanto/lappy1.git
 $ git push -u origin master
 ```
 #### - Perintah ini akan meminta memasukkan _username_ dan _password_ pada akun anda di github.com
-![Gambar1](gambar/gambar8.png)
+![Gambar1](Gambar1/gambar7.png)
 
 ## Melihat Hasilnya pada Server Repository
 
 #### - Buka laman github.com, arahkan pada repositorynya.
 #### - Maka perubahan akan terlihat pada laman tersebut.
 
-![Gambar1](gambar/gambar9.png)
+![Gambar1](Gambar1/gambar8.png)
 
 ## Clone Repository
 
@@ -122,7 +121,7 @@ $ git push -u origin master
 ```
 $ git clone [https://git hub.com/Akramfarrasanto/labpy1.git)
 ```
-![Gambar1](gambar/gambar10.png)
+![Gambar1](Gambar1/gambar9.png)
 
 ## Kegunaan File README.md
 
